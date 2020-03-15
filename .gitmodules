@@ -1,0 +1,9 @@
+[submodule "cbkzxt-ar-basic"]
+	path = cbkzxt-ar-basic
+	url = git@github.com:wzh19960613/cbkzxt-ar-basic.git
+[submodule "cbkzxt-ar-scenes"]
+	path = cbkzxt-ar-scenes
+	url = git@github.com:wzh19960613/cbkzxt-ar-scenes.git
+[submodule "cbkzxt-ar-pwa"]
+	path = cbkzxt-ar-pwa
+	url = git@github.com:wzh19960613/cbkzxt-ar-pwa.git

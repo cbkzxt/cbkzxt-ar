@@ -1,0 +1,16 @@
+{
+  "name": "cbkzxt-ar",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "init-proj": "npm install && cd ./cbkzxt-ar-basic && npm install && cd ../cbkzxt-ar-scenes && npm install && cd ../cbkzxt-ar-pwa && npm install",
+    "build-basic": "cd ./cbkzxt-ar-basic && npm run build-lib",
+    "build-scenes": "cd ./cbkzxt-ar-scenes && npm run build-lib",
+    "build-pwa": "cd ./cbkzxt-ar-pwa && npm run build",
+    "build": "npm run build-basic && npm run build-scenes && npm run build-pwa",
+    "server": "cd ./cbkzxt-ar-pwa && npm run dist-serve"
+  },
+  "author": "Wzh",
+  "private": true
+}
