@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "init-proj": "npm install && cd ./cbkzxt-ar-basic && npm install && cd ../cbkzxt-ar-scenes && npm install && cd ../cbkzxt-ar-pwa && npm install",
+    "init-proj": "git submodule init && git submodule update && npm install && cd ./cbkzxt-ar-basic && npm install && cd ../cbkzxt-ar-scenes && npm install && cd ../cbkzxt-ar-pwa && npm install",
     "build-basic": "cd ./cbkzxt-ar-basic && npm run build-lib",
     "build-scenes": "cd ./cbkzxt-ar-scenes && npm run build-lib",
     "build-pwa": "cd ./cbkzxt-ar-pwa && npm run build",
