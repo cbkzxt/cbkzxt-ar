@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "init-proj": "git submodule init && git submodule update && npm install && cd ./cbkzxt-ar-basic && npm install && cd ../cbkzxt-ar-scenes && npm install && cd ../cbkzxt-ar-pwa && npm install",
+    "init-proj": "npm run init-submodule && npm run init-npm && npm run all-to-master",
+    "init-submodule": "git submodule init && git submodule update",
+    "init-npm": "npm install && cd ./cbkzxt-ar-basic && npm install && cd ../cbkzxt-ar-scenes && npm install && cd ../cbkzxt-ar-pwa && npm install",
+    "all-to-master": "cd ./cbkzxt-ar-basic && git checkout master && cd ../cbkzxt-ar-scenes && git checkout master && cd ../cbkzxt-ar-pwa && git checkout master",
     "build-basic": "cd ./cbkzxt-ar-basic && npm run build-lib",
     "build-scenes": "cd ./cbkzxt-ar-scenes && npm run build-lib",
     "build-pwa": "cd ./cbkzxt-ar-pwa && npm run build",
