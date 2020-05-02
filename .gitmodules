@@ -7,3 +7,6 @@
 [submodule "cbkzxt-ar-pwa"]
 	path = cbkzxt-ar-pwa
 	url = git@github.com:cbkzxt/cbkzxt-ar-pwa.git
+[submodule "ar-nft-patch"]
+	path = ar-nft-patch
+	url = git@github.com:cbkzxt/ar-nft-patch.git
