@@ -1,0 +1,11 @@
+npm install
+cd ./cbkzxt-ar-basic
+npm install
+cd ../cbkzxt-ar-scenes
+npm install
+cd ../cbkzxt-ar-pwa
+npm install
+cd ../ar-nft-patch
+npm install
+cd ../cbkzxt-ar-scenes/NFT-Marker-Creator
+npm install
