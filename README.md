@@ -10,8 +10,14 @@
 
 ## 初始化工程
 
+> 注意！在 Windows 环境下，需首先执行：
+> ```
+> git config --global core.autocrlf false
+> ```
+> 用以确保 git 时不会自动生成 CRLF 换行符
+
 ```
-git clone git@github.com:wzh19960613/cbkzxt-ar.git
+git clone git@github.com:cbkzxt/cbkzxt-ar.git
 cd ./cbkzxt-ar
 npm run init-proj
 ```
