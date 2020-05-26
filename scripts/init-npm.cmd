@@ -7,5 +7,5 @@ cd ../cbkzxt-ar-pwa
 npm install
 cd ../ar-nft-patch
 npm install
-cd ../cbkzxt-ar-scenes/NFT-Marker-Creator
+cd ../NFT-Marker-Creator
 npm install
