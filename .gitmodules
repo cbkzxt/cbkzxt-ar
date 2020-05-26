@@ -10,3 +10,6 @@
 [submodule "ar-nft-patch"]
 	path = ar-nft-patch
 	url = git@github.com:cbkzxt/ar-nft-patch.git
+[submodule "NFT-Marker-Creator"]
+	path = NFT-Marker-Creator
+	url = git@github.com:cbkzxt/NFT-Marker-Creator.git
