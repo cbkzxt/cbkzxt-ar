@@ -13,3 +13,6 @@
 [submodule "NFT-Marker-Creator"]
 	path = NFT-Marker-Creator
 	url = git@github.com:cbkzxt/NFT-Marker-Creator.git
+[submodule "cbkzxt-ar-blender-addon"]
+	path = cbkzxt-ar-blender-addon
+	url = git@github.com:cbkzxt/cbkzxt-ar-blender-addon.git
