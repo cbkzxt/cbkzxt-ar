@@ -1,0 +1,1 @@
+npx serve -s dist --ssl-cert ssl/server.crt --ssl-key ssl/server.key
